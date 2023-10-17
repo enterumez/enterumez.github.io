@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+}
+
+#toc {
+    width: 20%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#content {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Add some styles for the table of contents (toc) */
+#toc ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#toc ul li {
+    margin-bottom: 10px;
+}
+
+#toc a {
+    text-decoration: none;
+    color: #333;
+}
+
+#toc a:hover {
+    text-decoration: underline;
+}
